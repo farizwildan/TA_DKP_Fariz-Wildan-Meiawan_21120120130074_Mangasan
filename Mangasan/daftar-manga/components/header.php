@@ -21,7 +21,7 @@ foreach ($mangas as $manga) {
         </button>
         <div class="collapse navbar-collapse pt-3 pt-lg-0" id="navbarNavDropdown">
             <a class="navbar-brand" href="/daftar-film">
-                <img src="../assets/favicon.png" class="pb-1" /><span class="ms-2 text-xl link">Daftar Manga</span>
+                <img src="../assets/favicon.png" class="pb-1" /><span class="ms-2 text-xl link">Mangasan</span>
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item dropdown ms-4">
