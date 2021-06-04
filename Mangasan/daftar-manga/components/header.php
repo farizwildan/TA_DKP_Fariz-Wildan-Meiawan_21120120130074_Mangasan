@@ -30,7 +30,7 @@ foreach ($mangas as $manga) {
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <?php foreach ($titles as $title) : ?>
-                            <li><a class="dropdown-item" href="/daftar-film?title=<?= $genre ?>&genre=<?= $request->genre?>"><?= $title ?></a></li>
+                            <li><a class="dropdown-item" href="/daftar-manga?title=<?= $title ?>&genre=<?= $request->genre?>"><?= $title ?></a></li>
                         <?php endforeach; ?>
                         </ul>
                 </li>
@@ -40,7 +40,7 @@ foreach ($mangas as $manga) {
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <?php foreach ($genres as $genre) : ?>
-                            <li><a class="dropdown-item" href="/daftar-film?title=<?= $request->title ?>&genre=<?= $genre ?>"><?= $genre ?></a></li>
+                            <li><a class="dropdown-item" href="/daftar-manga?title=<?= $request->title ?>&genre=<?= $genre ?>"><?= $genre ?></a></li>
                         <?php endforeach; ?>
                     </ul>
                 </li>
