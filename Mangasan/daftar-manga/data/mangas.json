@@ -1,0 +1,53 @@
+[
+  {
+    "id": 0,
+    "thumbnail": "https://i0.wp.com/www.artforia.com/wp-content/uploads/2020/07/25-Manga-Terbaik-Sepanjang-Masa-Yang-Wajib-Kamu-Koleksi.jpg?w=333&ssl=1",
+    "link": "https://id.wikipedia.org/wiki/One_Piece",
+    "title": "One Piece",
+    "genre": "Adventure",
+    "description": "One Piece memiliki tema yang seru, seperti kru bajak laut yang kompak, menggapai impian, cinta, masalah sosial, konflik dan banyak lagi yang digambarkan di manga ini, yang dimaka Monkey D.Luffy sebagai pemeran utamanya mencari harta karun di dunia bajak laut yang dikenal dengan sebutan “One Piece”.",
+    "rating": 9.0,
+    "year": 1997
+    
+  },
+  {
+    "id": 1,
+    "thumbnail": "https://i2.wp.com/www.artforia.com/wp-content/uploads/2020/07/25-Manga-Terbaik-Sepanjang-Masa-Yang-Wajib-Kamu-Koleksi-2.jpg?w=333&ssl=1",
+    "link": "https://id.wikipedia.org/wiki/Naruto",
+    "title": "Naruto",
+    "genre": "Adventure",
+    "description": "Naruto (ナルト) merupakan salah satu manga paling terkenal dan juga populer di seluruh dunia tentunya setelah One Piece, manga yang bertema ninja, diserialkan di Weekly Shonen Jump selama 15 tahun dari tahun 1999 dengan total 72 volume dengan 700 bab telah di terbitkan pada 2019 sekitar 250 juta kopi terjual di seluruh dunia.",
+    "rating": 9.6,
+    "year": 1999
+  },
+  {
+    "id": 2,
+    "thumbnail": "https://i0.wp.com/www.artforia.com/wp-content/uploads/2020/07/25-Manga-Terbaik-Sepanjang-Masa-Yang-Wajib-Kamu-Koleksi-4.jpg?w=333&ssl=1",
+    "link": "https://id.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba",
+    "title": "Demon Slayer: Kimetsu no Yaiba",
+    "genre": "Dark Fantasy",
+    "description": "Demon Slayer: Kimetsu no Yaiba (鬼滅の刃) adalah salah satu manga terbaik di abad ke-21 dan banyak penggemarnya yang menganggap manga ini sebagai yang terbaik dari yang terbaik sepanjang masa, manga ini mulai pertama kali diserialkan di Weekly Shonen Jump pada tahun 2016, dan akhirnya selesai pada bulan Mei 2020 ketika sedang dalam masa puncak popularitasnya.",
+    "rating": 9.2,
+    "year": 2016
+  },
+  {
+    "id": 3,
+    "thumbnail": "https://i1.wp.com/www.artforia.com/wp-content/uploads/2020/07/25-Manga-Terbaik-Sepanjang-Masa-Yang-Wajib-Kamu-Koleksi-5.jpg?w=333&ssl=1",
+    "link": "https://id.wikipedia.org/wiki/Hunter_%C3%97_Hunter",
+    "title": "Hunter x Hunter",
+    "genre": "Martial Arts",
+    "description": "Hunter x Hunter (ハンター×ハンター) yang merupakan manga petualangan Weekly Shonen Jump yang telah ditulis sejak tahun 1998 oleh Yoshihiro Togashi yang juga dikenal sebagai Yu Yu Hakusho, kisah ini berpusat oleh satu karakter yaitu Gon Freecss, ia memulai perjalanannya untuk menemukan ayahnya Ging Freecss yang meninggalkannya di usia muda, diperjalanan ia bertemu dengan banyak karakter yang menarik termasuk Killua Zoldyck, Kurapika, Leorio, dan sebagainya.",
+    "rating": 8.5,
+    "year": 1998
+  },
+  {
+    "id": 4,
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/d/d6/Shingeki_no_Kyojin_manga_volume_1.jpg",
+    "link": "https://id.wikipedia.org/wiki/Attack_on_Titan",
+    "title": "Attack On Titan",
+    "genre": "Action, Dark Fantasy",
+    "description": "Shingeki no Kyojin (bahasa Jepang: 進撃の巨人, terj. har. Raksasa [yang] Menyerang), yang diterbitkan di Indonesia dengan judul Attack on Titan, adalah sebuah seri manga shōnen asal Jepang yang ditulis dan diilustrasikan oleh Hajime Isayama. Ceritanya berlatar di dunia tempat umat manusia hidup di wilayah yang dikelilingi tiga lapis tembok besar, yang melindungi mereka dari makhluk pemakan manusia berukuran raksasa yang dikenal sebagai Titan. Manga ini dimuat berseri dalam majalah Bessatsu Shōnen Magazine terbitan Kodansha sejak bulan September 2009 hingga April 2021, dan telah diterbitkan menjadi 34 volume tankōbon per bulan Desember 2020..",
+    "rating": 8.7,
+    "year": 2009
+  }
+]
