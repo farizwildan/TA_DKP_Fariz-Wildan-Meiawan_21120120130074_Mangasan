@@ -16,6 +16,6 @@ class MangasRequest
     public function __construct(string $title, string $genre)
     {
         if (!empty(trim($title))) $this->title = str_replace('title=', '', trim($title));
-        if (!empty(trim($genre))) $this->genre = (int)str_replace('genre=', '', trim($genre));
+
     }
 }
