@@ -7,11 +7,9 @@ require_once(__DIR__ . '/../helper/set.php');
 $mangas = Factory::getMangas();
 $request = URLHelper::getMangasRequest();
 $titles = array();
-$genres = array();
 
 foreach ($mangas as $manga) {
     if (!in_array($manga->title, $titles)) $titles[] = $manga->title;
-    if (!in_array($manga->genre, $genres)) $genres[] = $manga->genre;
 }
 ?>
 <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3 ps-2 ps-lg-5 pe-2 pe-lg-5">
@@ -20,7 +18,7 @@ foreach ($mangas as $manga) {
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse pt-3 pt-lg-0" id="navbarNavDropdown">
-            <a class="navbar-brand" href="/daftar-film">
+            <a class="navbar-brand" href="/daftar-mangas">
                 <img src="../assets/favicon.png" class="pb-1" /><span class="ms-2 text-xl link">Mangasan</span>
             </a>
             <ul class="navbar-nav">
@@ -30,19 +28,16 @@ foreach ($mangas as $manga) {
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <?php foreach ($titles as $title) : ?>
-                            <li><a class="dropdown-item" href="/daftar-manga?title=<?= $title ?>&genre=<?= $request->genre?>"><?= $title ?></a></li>
+                            <li><a class="dropdown-item" href="<?= $manga->link ?>"><?= $title ?></a></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/One_Piece">One Piece</a></li>
+                                                    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Naruto">Naruto</a></li>
+                                                    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba">Demon Slayer: Kimetsu no Yaiba</a></li>
+                                                    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Hunter_%C3%97_Hunter">Hunter x Hunter</a></li>
+                                                    <li><a class="dropdown-item" href="https://id.wikipedia.org/wiki/Attack_on_Titan">Attack On Titan</a></li>
+                                                </ul>
                         <?php endforeach; ?>
                         </ul>
-                </li>
-                <li class="nav-item dropdown ms-4">
-                    <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <?= empty($request->genre) ? 'Pilih Genre' : $request->genre ?>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <?php foreach ($genres as $genre) : ?>
-                            <li><a class="dropdown-item" href="/daftar-manga?title=<?= $request->title ?>&genre=<?= $genre ?>"><?= $genre ?></a></li>
-                        <?php endforeach; ?>
-                    </ul>
                 </li>
             </ul>
         </div>
