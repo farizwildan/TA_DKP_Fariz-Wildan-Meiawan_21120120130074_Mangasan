@@ -17,6 +17,7 @@ $request = URLHelper::getMangasRequest()
      <title>Daftar Manga</title>
      <link rel="icon" href="./assets/favicon.png" type="image/png" />
      <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+     <link rel="stylesheet" type="text/css" href="css/style.css">
      <style>
           .navbar-brand {
                font-weight: bold;
@@ -81,6 +82,12 @@ $request = URLHelper::getMangasRequest()
                                                        <path d="M12 5l7 7-7 7"></path>
                                                   </svg>
                                              </a>
+                                             <a class="link d-flex items-center" href="<?= $manga->manga ?>" rel="noreferrer noopener" target="_blank">baca disini
+                                                  <svg class="card-icon ms-1 mt-1" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                       <path d="M5 12h14"></path>
+                                                       <path d="M12 5l7 7-7 7"></path>
+                                                  </svg>
+                                             </a>
                                         </div>
                                         <div class="col text-end">
                                              <span class="inline-flex items-center font-monospace">
@@ -114,12 +121,3 @@ $request = URLHelper::getMangasRequest()
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.bundle.min.js" integrity="sha512-sH8JPhKJUeA9PWk3eOcOl8U+lfZTgtBXD41q6cO/slwxGHCxKcW45K4oPCUhHG7NMB4mbKEddVmPuTXtpbCbFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 </html>
-<select id="0" title="onepiece">
-		<?php
-        $mangas = array("One Piece", "Naruto", "Demon Slayer: Kimetsu no Yaiba", "Hunter x Hunter", "Attack On Titan"); 
-        for($i=0;$i<=4;$i++)
-        echo "<option value=$i> $mangas[$i] </option>";
-        ?>
-</select>
-<a id="0" href="<?= $manga->link ?>">
-
